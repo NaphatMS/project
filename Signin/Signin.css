@@ -1,0 +1,124 @@
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    background-color: white;
+}
+.img{
+    height: 75vh;
+    width: 600px;
+    background-image: url("https://blog.blacklane.com/wp-content/uploads/2019/05/Untitled-design-2019-05-31T200158.980.png");
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 2);
+}
+.regis{
+
+    background-color: white;
+    height: 75vh;
+    width: 600px;
+    border-radius: 0px 40px 40px 0px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.regis h3{
+    margin-right: 225px;
+    margin-bottom: 5px;
+    font-size: 21px;
+    text-decoration: underline 2px solid blue;
+}
+
+.regis-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.regis-input-username{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.regis-input-username input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+.regis-input-password{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.regis-input-password input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+.regis-input-name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.regis-input-name input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+.regis-input-email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.regis-input-email input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+
+.regis-input-submit{
+    display: flex;
+    flex-direction: column;
+}
+
+.regis-input-submit button{
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+.regis-input2{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
